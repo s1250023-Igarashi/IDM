@@ -1,5 +1,9 @@
 import random
 
+print("What is your name?")
+name = raw_input("> ")
+print("Hello, " + name + "!")
+
 print("Rolling the dice...")
 
 die1 = random.randint(1, 6)
